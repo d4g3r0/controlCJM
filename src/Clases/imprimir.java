@@ -22,7 +22,7 @@ public class imprimir {
     public imprimir() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            this.conexx = DriverManager.getConnection("jdbc:mysql://31.170.167.153/u377565885_cjm", "u377565885_admin", "m1bd3st4s3gur@");
+            this.conexx = DriverManager.getConnection("jdbc:mysql://localhost/db", "usuario", "password");
             this.newst = this.conexx.createStatement();
         } catch (ClassNotFoundException | SQLException eq) {
             JOptionPane.showMessageDialog(null, eq, "ADVERTENCIA", 2);
