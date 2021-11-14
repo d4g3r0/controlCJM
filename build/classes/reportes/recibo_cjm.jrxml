@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 6.5.0.final using JasperReports Library version 6.5.0  -->
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="recibo_roca" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="39d49c65-793e-4773-b9f6-62e8c398e6ef">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
@@ -112,11 +112,11 @@
 				<textFieldExpression><![CDATA[$F{ingreso}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="270" y="122" width="291" height="40" uuid="8843ef31-d9af-44f8-aae9-bebb07a11a06">
+				<reportElement x="270" y="122" width="291" height="58" uuid="8843ef31-d9af-44f8-aae9-bebb07a11a06">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement verticalAlignment="Top">
-					<font size="12"/>
+					<font size="11"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{concepto}]]></textFieldExpression>
 			</textField>
@@ -216,7 +216,7 @@
 			<textField isBlankWhenNull="true">
 				<reportElement x="1" y="152" width="187" height="75" uuid="bfbc57a0-12b8-41f6-8b94-b2745856c41e"/>
 				<textElement verticalAlignment="Top">
-					<font size="12"/>
+					<font size="11"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{concepto}]]></textFieldExpression>
 			</textField>
@@ -238,7 +238,7 @@
 				</graphicElement>
 			</line>
 			<textField isBlankWhenNull="true">
-				<reportElement x="270" y="163" width="291" height="40" uuid="8152ba2d-503c-45cd-a0b2-b688c8f9ccbc">
+				<reportElement x="270" y="180" width="291" height="23" uuid="8152ba2d-503c-45cd-a0b2-b688c8f9ccbc">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement verticalAlignment="Top">
